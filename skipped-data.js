@@ -7261,3 +7261,438 @@
           p_480: "https://dl3.3rver.org/cdn2/04/film/2001/Harry.Potter.and.the.Sorcerers.Stone/Harry.Potter.and.the.Sorcerers.Stone.2001.mp4"
         }]
 },
+{
+                name:"Fast and Furious presents Hobbs and Shaw",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Fast.and.Furious.presents.Hobbs.and.Shaw/Fast.%26.Furious.Presents.Hobbs.%26.Shaw.2019.480p.BluRay.PaHe.mkv"
+                }]
+              },
+{
+                name:"Fast and Furious presents Hobbs and Shaw",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/Fast.and.Furious.presents.Hobbs.and.Shaw/Fast.%26.Furious.Presents.Hobbs.%26.Shaw.2019.720p.BluRay.HEVC.x265.PaHe.mkv"
+                }]
+              },
+{
+                name:"Fast and Furious presents Hobbs and Shaw",
+                skip:true,
+                year:2019,
+                href:[{
+                 p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/Fast.and.Furious.presents.Hobbs.and.Shaw/Fast.and.Furious.Presents.Hobbs.and.Shaw.2019.1080p.BluRay.Ganool.mkv"
+                }]
+              }
+
+           ]
+           module.exports={data}
+{
+                name:"Fast and Furious presents Hobbs and Shaw",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Fast.and.Furious.presents.Hobbs.and.Shaw/Fast.and.Furious.presents.Hobbs.and.Shaw.2019.mp4"
+                }]
+              },
+{
+                name:"Looks That Kill",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2020/Looks.That.Kill/Looks.That.Kill.2020.1080p.WEBRip.1400MB.DD5.1.x264-GalaxyRG.mkv"
+                }]
+              },
+{
+                name:"Looks That Kill",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2020/Looks.That.Kill/Looks.That.Kill.2020.720p.WEBRip.800MB.x264-GalaxyRG.mkv"
+                }]
+              },
+{
+                name:"Looks That Kill",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2020/Looks.That.Kill/Looks.That.Kill.2020.mp4"
+                }]
+              },
+{
+                name:"Gemini",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/Gemini/Gemini.Man.2019.1080p.BluRay.mp4"
+                }]
+              },
+{
+                name:"Gemini",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Gemini/Gemini.Man.2019.480p.BluRay.Pahe.mkv"
+                }]
+              },
+{
+                name:"Gemini",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/Gemini/Gemini.Man.2019.720p.BluRay.mp4"
+                }]
+              },
+{
+                name:"Gemini",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Gemini/Gemini.Man.2019.mp4"
+                }]
+              },
+{
+                name:"The Lighthouse",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/The.Lighthouse/The.Lighthouse.2019.BluRay.1080p.x264.YIFY.mp4"
+                }]
+              },
+{
+                name:"The Lighthouse",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/The.Lighthouse/The.Lighthouse.2019.BluRay.720p.x264.YIFY.mp4"
+                }]
+              },
+{
+                name:"The Lighthouse",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/The.Lighthouse/The.Lighthouse.2019.mp4"
+                }]
+              },
+{
+                name:"The Good the Bad and the Ugly",
+                skip:true,
+                year:1966,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/1966/The.Good.the.Bad.and.the.Ugly/The.Good.the.Bad.and.the.Ugly.1966.1080p.BluRay.mp4"
+                }]
+              },
+{
+                name:"The Good the Bad and the Ugly",
+                skip:true,
+                year:1966,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/1966/The.Good.the.Bad.and.the.Ugly/The.Good.the.Bad.and.the.Ugly.1966.480p.BluRay.mkv"
+                }]
+              },
+{
+                name:"The Good the Bad and the Ugly",
+                skip:true,
+                year:1966,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/1966/The.Good.the.Bad.and.the.Ugly/The.Good.the.Bad.and.the.Ugly.1966.720p.BluRay.mkv"
+                }]
+              },
+{
+                name:"The Good the Bad and the Ugly",
+                skip:true,
+                year:1966,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/1966/The.Good.the.Bad.and.the.Ugly/The.Good.the.Bad.and.the.Ugly.1966.mp4"
+                }]
+              },
+{
+                name:"John Wick 3",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/John.Wick.3/John.Wick.3.2019.1080p.BluRay.mkv"
+                }]
+              },
+{
+                name:"John Wick 3",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/John.Wick.3/John.Wick.3.2019.720p.BluRay.mkv"
+                }]
+              },
+{
+                name:"John Wick 3",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/John.Wick.3/John.Wick.3.2019.trailer.mp4"
+                }]
+              },
+{
+                name:"Maleficent",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/Maleficent/Maleficent.Mistress.Of.Evil.2019.1080p.BluRay.x264-YTS.mp4"
+                }]
+              },
+{
+                name:"Maleficent",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/Maleficent/Maleficent.Mistress.Of.Evil.2019.720p.BluRay.x264-YTS.mp4"
+                }]
+              },
+{
+                name:"Maleficent",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Maleficent/Maleficent.Mistress.of.Evil.%282019%29.mp4"
+                }]
+              },
+{
+                name:"Pokemon Detective Pikachu",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/Pokemon.Detective.Pikachu/Pokemon.Detective.Pikachu.2019.1080p.BluRay.6CH.MkvCage.mkv"
+                }]
+              },
+{
+                name:"Pokemon Detective Pikachu",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/Pokemon.Detective.Pikachu/Pokemon.Detective.Pikachu.2019.720p.BluRay.MkvCage.mkv"
+                }]
+              },
+{
+                name:"Pokemon Detective Pikachu",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Pokemon.Detective.Pikachu/Pokemon.Detective.Pikachu.2019.mp4"
+                }]
+              },
+{
+                name:"Birds of Prey",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2020/Birds.of.Prey/Birds.of.Prey.2020.mp4"
+                }]
+              },
+{
+                name:"Birds of Prey",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2020/Birds.of.Prey/Birds.of.Prey.And.the.Fantabulous.Emancipation.of.One.Harley.Quinn.2020.1080p.BrRip.6CH.x265.HEVC-PSA.mkv"
+                }]
+              },
+{
+                name:"Birds of Prey",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2020/Birds.of.Prey/Birds.of.Prey.And.the.Fantabulous.Emancipation.of.One.Harley.Quinn.2020.INTERNAL.720p.BrRip.2CH.x265.HEVC-PSA.mkv"
+                }]
+              },
+{
+                name:"It",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/It/It.Chapter.Two.2019.1080p.BluRay.DD5.1.Pahe.mkv"
+                }]
+              },
+{
+                name:"It",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/It/It.Chapter.Two.2019.480p.BluRay.Pahe.mkv"
+                }]
+              },
+{
+                name:"It",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/It/It.Chapter.Two.2019.720p.BluRay.Pahe.mkv"
+                }]
+              },
+{
+                name:"It",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/It/It.Chapter.Two.2019.mp4"
+                }]
+              },
+{
+                name:"Matrix",
+                skip:true,
+                year:1999,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/1999/Matrix/The.Matrix.%281999%29.mp4"
+                }]
+              },
+{
+                name:"Matrix",
+                skip:true,
+                year:1999,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/1999/Matrix/The.Matrix.1999.BluRay.1080p.x264.YIFY.mp4"
+                }]
+              },
+{
+                name:"Matrix",
+                skip:true,
+                year:1999,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/1999/Matrix/The.Matrix.1999.BluRay.720p.x264.YIFY.mp4"
+                }]
+              },
+{
+                name:"Scoob",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2020/Scoob/Scoob.2020.1080p.WEB-DL.x264-HDETG.mkv"
+                }]
+              },
+{
+                name:"Scoob",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2020/Scoob/Scoob.2020.720p.WEB-DL.x264-GalaxyRG.mkv"
+                }]
+              },
+{
+                name:"Scoob",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2020/Scoob/Scoob.trailer.mp4"
+                }]
+              },
+{
+                name:"Sonic",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2020/Sonic/Sonic.the.Hedgehog.2020.1080p.BluRay.x264.YIFY.mp4"
+                }]
+              },
+{
+                name:"Sonic",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2020/Sonic/Sonic.the.Hedgehog.2020.720p.BluRay.x264.YIFY.mp4"
+                }]
+              },
+{
+                name:"Sonic",
+                skip:true,
+                year:2020,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2020/Sonic/Sonic.the.Hedgehog.2020.trailer.mp4"
+                }]
+              },
+{
+                name:"13 Hours",
+                skip:true,
+                year:2016,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2016/13.Hours/13.Hours.2016.mp4"
+                }]
+              },
+{
+                name:"13 Hours",
+                skip:true,
+                year:2016,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2016/13.Hours/13.Hours.The.Secret.Soldiers.of.Benghazi.2016.1080p.BluRay.Ganool.mkv"
+                }]
+              },
+{
+                name:"13 Hours",
+                skip:true,
+                year:2016,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2016/13.Hours/13.Hours.The.Secret.Soldiers.of.Benghazi.2016.720p.BluRay.Ganool.mkv"
+                }]
+              },
+{
+                name:"Its a Wonderful Life",
+                skip:true,
+                year:1946,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/1946/Its.a.Wonderful.Life/Its.a.Wonderful.Life.1946.1080p.BrRip.YIFY.mp4"
+                }]
+              },
+{
+                name:"Its a Wonderful Life",
+                skip:true,
+                year:1946,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/1946/Its.a.Wonderful.Life/Its.a.Wonderful.Life.1946.480p.BluRay.x264.Pahe.mkv"
+                }]
+              },
+{
+                name:"Its a Wonderful Life",
+                skip:true,
+                year:1946,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/1946/Its.a.Wonderful.Life/Its.a.Wonderful.Life.1946.720p.BrRip.YIFY.mp4"
+                }]
+              },
+{
+                name:"Its a Wonderful Life",
+                skip:true,
+                year:1946,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/1946/Its.a.Wonderful.Life/Its.a.Wonderful.Life.1946.mp4"
+                }]
+              },
+{
+                name:"Once Upon a Time in Hollywood",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_1080 : "https://dl3.3rver.org/cdn2/05/film/2019/Once.Upon.a.Time.in.Hollywood/Once.Upon.a.Time.in.Hollywood.2019.1080p.UHD.BluRay.DD5.1.Pahe.mkv"
+                }]
+              },
+{
+                name:"Once Upon a Time in Hollywood",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Once.Upon.a.Time.in.Hollywood/Once.Upon.a.Time.in.Hollywood.2019.480p.BluRay.Pahe.mkv"
+                }]
+              },
+{
+                name:"Once Upon a Time in Hollywood",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_720 : "https://dl3.3rver.org/cdn2/05/film/2019/Once.Upon.a.Time.in.Hollywood/Once.Upon.a.Time.in.Hollywood.2019.720p.BluRay.x265.HEVC.Pahe.mkv"
+                }]
+              },
+{
+                name:"Once Upon a Time in Hollywood",
+                skip:true,
+                year:2019,
+                href:[{
+                    p_480 : "https://dl3.3rver.org/cdn2/05/film/2019/Once.Upon.a.Time.in.Hollywood/Once.Upon.a.Time.in.Hollywood.2019.mp4"
+                }]
+              },
