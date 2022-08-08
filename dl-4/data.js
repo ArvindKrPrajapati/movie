@@ -1,0 +1,758 @@
+const data=[
+{
+                       text:"The.General/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1926/The.General/"
+                       },
+{
+                       text:"scarface/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1932/scarface/"
+                       },
+{
+                       text:"Seven.Samurai/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1954/Seven.Samurai/"
+                       },
+{
+                       text:"Yojimbo/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1961/Yojimbo/"
+                       },
+{
+                       text:"Harakiri/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1962/Harakiri/"
+                       },
+{
+                       text:"Bullitt/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1968/Bullitt/"
+                       },
+{
+                       text:"The.Conformist/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1970/The.Conformist/"
+                       },
+{
+                       text:"The.French.Connection/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1971/The.French.Connection/"
+                       },
+{
+                       text:"The.Terminator.1984.1080p.BluRay.DTS.x264-CtrlH..>", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1984/The.Terminator.1984.1080p.BluRay.DTS.x264-CtrlHD%20%5BUTF-8%5D.srt"
+                       },
+
+
+
+
+{
+                       text:"Ran/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1985/Ran/"
+                       },
+{
+                       text:"Highlander/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1986/Highlander/"
+                       },
+{
+                       text:"Top.Gun/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1986/Top.Gun/"
+                       },
+{
+                       text:"Akira/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1988/Akira/"
+                       },
+{
+                       text:"The.Hunt.for.Red.October/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1990/The.Hunt.for.Red.October/"
+                       },
+{
+                       text:"Highlander.II.The.Quickening/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1991/Highlander.II.The.Quickening/"
+                       },
+{
+                       text:"Hudson.Hawk/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1991/Hudson.Hawk/"
+                       },
+{
+                       text:"The.Last.Boy.Scout/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1991/The.Last.Boy.Scout/"
+                       },
+{
+                       text:"Highlander/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1994/Highlander/"
+                       },
+{
+                       text:"The.Crow/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1994/The.Crow/"
+                       },
+{
+                       text:"True.Lies/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1994/True.Lies/"
+                       },
+{
+                       text:"From.Dusk.Till.Dawn/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1996/From.Dusk.Till.Dawn/"
+                       },
+{
+                       text:"Last.Man.Standing/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1996/Last.Man.Standing/"
+                       },
+{
+                       text:"The.Devils.Own/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1997/The.Devils.Own/"
+                       },
+{
+                       text:"face.off/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1997/face.off/"
+                       },
+{
+                       text:"Deep.Blue.Sea/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1999/Deep.Blue.Sea/"
+                       },
+{
+                       text:"Ghost.Dog/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1999/Ghost.Dog/"
+                       },
+{
+                       text:"Three.Kings/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/1999/Three.Kings/"
+                       },
+{
+                       text:"High.Fidelity/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2000/High.Fidelity/"
+                       },
+{
+                       text:"Highlander/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2000/Highlander/"
+                       },
+{
+                       text:"Hollow.Man/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2000/Hollow.Man/"
+                       },
+{
+                       text:"Harry.Potter.and.the.Sorcerers.Stone/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2001/Harry.Potter.and.the.Sorcerers.Stone/"
+                       },
+{
+                       text:"Mulholland.Drive/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2001/Mulholland.Drive/"
+                       },
+{
+                       text:"Spy.Game/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2001/Spy.Game/"
+                       },
+{
+                       text:"the.fast.and.the.furious.2001/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2001/the.fast.and.the.furious.2001/"
+                       },
+{
+                       text:"Equilibrium/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2002/Equilibrium/"
+                       },
+{
+                       text:"Harry.Potter.and.the.Chamber.of.Secrets/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2002/Harry.Potter.and.the.Chamber.of.Secrets/"
+                       },
+{
+                       text:"Hero/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2002/Hero/"
+                       },
+{
+                       text:"Master.and.Commander/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2002/Master.and.Commander/"
+                       },
+{
+                       text:"Minority.Report/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2002/Minority.Report/"
+                       },
+{
+                       text:"Undisputed/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2002/Undisputed/"
+                       },
+{
+                       text:"2.Fast.2.Furious.2003/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2003/2.Fast.2.Furious.2003/"
+                       },
+{
+                       text:"Kill.Bill/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2003/Kill.Bill/"
+                       },
+{
+                       text:"Tears.of.the.Sun/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2003/Tears.of.the.Sun/"
+                       },
+{
+                       text:"Terminator/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2003/Terminator/"
+                       },
+{
+                       text:"Alexander/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/Alexander/"
+                       },
+{
+                       text:"Harry.Potter.and.the.Prisoner.of.Azkaban/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/Harry.Potter.and.the.Prisoner.of.Azkaban/"
+                       },
+{
+                       text:"Kill.Bill/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/Kill.Bill/"
+                       },
+{
+                       text:"Taking.Lives/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/Taking.Lives/"
+                       },
+{
+                       text:"The.Life.Aquatic.with.Steve.Zissou/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/The.Life.Aquatic.with.Steve.Zissou/"
+                       },
+{
+                       text:"closer/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/closer/"
+                       },
+{
+                       text:"cube.zero/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/cube.zero/"
+                       },
+{
+                       text:"secret.window/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/secret.window/"
+                       },
+{
+                       text:"sideways/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/sideways/"
+                       },
+{
+                       text:"the.butterfly.effect/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2004/the.butterfly.effect/"
+                       },
+{
+                       text:"Cinderella.Man/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2005/Cinderella.Man/"
+                       },
+{
+                       text:"Harry.Potter.And.The.Goblet.of.Fire/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2005/Harry.Potter.And.The.Goblet.of.Fire/"
+                       },
+{
+                       text:"Kiss.Kiss.Bang.Bang/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2005/Kiss.Kiss.Bang.Bang/"
+                       },
+{
+                       text:"The.Worlds.Fastest.Indian/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2005/The.Worlds.Fastest.Indian/"
+                       },
+{
+                       text:"batman.begins/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2005/batman.begins/"
+                       },
+{
+                       text:"sin.city/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2005/sin.city/"
+                       },
+{
+                       text:"Smokin.Aces/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2006/Smokin.Aces/"
+                       },
+{
+                       text:"The.Fast.and.the.Furious.Tokyo.Drift/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2006/The.Fast.and.the.Furious.Tokyo.Drift/"
+                       },
+{
+                       text:"The.Host/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2006/The.Host/"
+                       },
+{
+                       text:"Undisputed.2/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2006/Undisputed.2/"
+                       },
+{
+                       text:"a.scanner.darkly/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2006/a.scanner.darkly/"
+                       },
+{
+                       text:"the.butterfly.effect/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2006/the.butterfly.effect/"
+                       },
+{
+                       text:"3:10.to.Yuma/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2007/3%3A10.to.Yuma/"
+                       },
+{
+                       text:"Death.Proof/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2007/Death.Proof/"
+                       },
+{
+                       text:"Grindhouse/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2007/Grindhouse/"
+                       },
+{
+                       text:"Harry.Potter.and.the.Order.of.the.Phoenix/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2007/Harry.Potter.and.the.Order.of.the.Phoenix/"
+                       },
+{
+                       text:"la.vie.en.rose/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2007/la.vie.en.rose/"
+                       },
+{
+                       text:"Body.of.Lies/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2008/Body.of.Lies/"
+                       },
+{
+                       text:"Tropic.Thunder/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2008/Tropic.Thunder/"
+                       },
+{
+                       text:"recep1/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2008/recep1/"
+                       },
+{
+                       text:"Fast.and.Furious.4/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Fast.and.Furious.4/"
+                       },
+{
+                       text:"Harry.Potter.and.the.Half.Blood.Prince/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Harry.Potter.and.the.Half.Blood.Prince/"
+                       },
+{
+                       text:"Push/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Push/"
+                       },
+{
+                       text:"Sherlock.Holmes/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Sherlock.Holmes/"
+                       },
+{
+                       text:"Star.Trek/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Star.Trek/"
+                       },
+{
+                       text:"Summer.Wars/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Summer.Wars/"
+                       },
+{
+                       text:"Terminator.Salvation/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Terminator.Salvation/"
+                       },
+{
+                       text:"The.International/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/The.International/"
+                       },
+{
+                       text:"Watchmen/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/Watchmen/"
+                       },
+{
+                       text:"recep2/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/recep2/"
+                       },
+{
+                       text:"the.butterfly.effect/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2009/the.butterfly.effect/"
+                       },
+{
+                       text:"127.Hours/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/127.Hours/"
+                       },
+{
+                       text:"Faster/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/Faster/"
+                       },
+{
+                       text:"Harry.Potter.And.The.Deathly.Hallows.Part.1/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/Harry.Potter.And.The.Deathly.Hallows.Part.1/"
+                       },
+{
+                       text:"Knight.and.Day/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/Knight.and.Day/"
+                       },
+{
+                       text:"Megamind/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/Megamind/"
+                       },
+{
+                       text:"Prince.of.Persia/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/Prince.of.Persia/"
+                       },
+{
+                       text:"The.Next.Three.Days/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/The.Next.Three.Days/"
+                       },
+{
+                       text:"The.Other.Guys/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/The.Other.Guys/"
+                       },
+{
+                       text:"Undisputed.3/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/Undisputed.3/"
+                       },
+{
+                       text:"recep/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2010/recep/"
+                       },
+{
+                       text:"Coriolanus/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Coriolanus/"
+                       },
+{
+                       text:"Fast.and.Furious.5/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Fast.and.Furious.5/"
+                       },
+{
+                       text:"Hanna/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Hanna/"
+                       },
+{
+                       text:"Harry.Potter.And.The.Deathly.Hallows.Part.2/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Harry.Potter.And.The.Deathly.Hallows.Part.2/"
+                       },
+{
+                       text:"Ironclad/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Ironclad/"
+                       },
+{
+                       text:"Kill.Bill/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Kill.Bill/"
+                       },
+{
+                       text:"Sherlock.Holmes/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/Sherlock.Holmes/"
+                       },
+{
+                       text:"The.Adventures.of.Tintin/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/The.Adventures.of.Tintin/"
+                       },
+{
+                       text:"The.Darkest.Hour/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/The.Darkest.Hour/"
+                       },
+{
+                       text:"The.Grey/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/The.Grey/"
+                       },
+{
+                       text:"a.dangerous.method/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/a.dangerous.method/"
+                       },
+{
+                       text:"machine.gun.preacher/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/machine.gun.preacher/"
+                       },
+{
+                       text:"priest/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2011/priest/"
+                       },
+{
+                       text:"Gangs.of.Wasseypur/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2012/Gangs.of.Wasseypur/"
+                       },
+{
+                       text:"The.Vow/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2012/The.Vow/"
+                       },
+{
+                       text:"The.Watch/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2012/The.Watch/"
+                       },
+{
+                       text:"Blue.is.the.Warmest.Color/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/Blue.is.the.Warmest.Color/"
+                       },
+{
+                       text:"Fast.and.Furious.6/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/Fast.and.Furious.6/"
+                       },
+{
+                       text:"Man.of.Steel/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/Man.of.Steel/"
+                       },
+{
+                       text:"Snowpiercer/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/Snowpiercer/"
+                       },
+{
+                       text:"The.Wolverine/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/The.Wolverine/"
+                       },
+{
+                       text:"The.Worlds.End/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/The.Worlds.End/"
+                       },
+{
+                       text:"filth/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2013/filth/"
+                       },
+{
+                       text:"A.Million.Ways.to.Die.in.the.West/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/A.Million.Ways.to.Die.in.the.West/"
+                       },
+{
+                       text:"Exodus/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/Exodus/"
+                       },
+{
+                       text:"Leviathan/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/Leviathan/"
+                       },
+{
+                       text:"Noah/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/Noah/"
+                       },
+{
+                       text:"Seventh.Son/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/Seventh.Son/"
+                       },
+{
+                       text:"gone.girl/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/gone.girl/"
+                       },
+{
+                       text:"recep/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/recep/"
+                       },
+{
+                       text:"wild/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2014/wild/"
+                       },
+{
+                       text:"Everest/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2015/Everest/"
+                       },
+{
+                       text:"Fast.and.Furious.7/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2015/Fast.and.Furious.7/"
+                       },
+{
+                       text:"Hitman.Agent.47/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2015/Hitman.Agent.47/"
+                       },
+{
+                       text:"San.Andreas/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2015/San.Andreas/"
+                       },
+{
+                       text:"Terminator.Genisys/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2015/Terminator.Genisys/"
+                       },
+{
+                       text:"10.cloverfield.lane/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/10.cloverfield.lane/"
+                       },
+{
+                       text:"Colossal/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/Colossal/"
+                       },
+{
+                       text:"Mechanic/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/Mechanic/"
+                       },
+{
+                       text:"Star.Trek.Beyond/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/Star.Trek.Beyond/"
+                       },
+{
+                       text:"Suicide.Squad/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/Suicide.Squad/"
+                       },
+{
+                       text:"The.Nice.Guys/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/The.Nice.Guys/"
+                       },
+{
+                       text:"boyka/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2016/boyka/"
+                       },
+{
+                       text:"Fast.and.Furious.8/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/Fast.and.Furious.8/"
+                       },
+{
+                       text:"Harry.Potter.A.History.of.Magic/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/Harry.Potter.A.History.of.Magic/"
+                       },
+{
+                       text:"Jumanji/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/Jumanji/"
+                       },
+{
+                       text:"Okja/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/Okja/"
+                       },
+{
+                       text:"Star.Wars/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/Star.Wars/"
+                       },
+{
+                       text:"Tiger.Zinda.Hai/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/Tiger.Zinda.Hai/"
+                       },
+{
+                       text:"recep/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2017/recep/"
+                       },
+{
+                       text:"Destroyer/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Destroyer/"
+                       },
+{
+                       text:"K.G.F/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/K.G.F/"
+                       },
+{
+                       text:"Nekrotronic/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Nekrotronic/"
+                       },
+{
+                       text:"Parmanu/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Parmanu/"
+                       },
+{
+                       text:"Peppermint/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Peppermint/"
+                       },
+{
+                       text:"Rangasthalam/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Rangasthalam/"
+                       },
+{
+                       text:"Robin.Hood/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Robin.Hood/"
+                       },
+{
+                       text:"The.Cloverfield.Paradox/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/The.Cloverfield.Paradox/"
+                       },
+{
+                       text:"The.Keeper/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/The.Keeper/"
+                       },
+{
+                       text:"Upgrade/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Upgrade/"
+                       },
+
+{
+                       text:"Avengers.Infinity.War.2018.srt", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2018/Avengers.Infinity.War.2018.srt"
+                       },
+
+{
+                       text:"6.Underground/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/6.Underground/"
+                       },
+{
+                       text:"7500/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/7500/"
+                       },
+{
+                       text:"Bombshell/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Bombshell/"
+                       },
+{
+                       text:"Good.Newwz/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Good.Newwz/"
+                       },
+{
+                       text:"Guns.Akimbo/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Guns.Akimbo/"
+                       },
+{
+                       text:"Hellboy/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Hellboy/"
+                       },
+{
+                       text:"Murder.Mystery/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Murder.Mystery/"
+                       },
+{
+                       text:"Rambo/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Rambo/"
+                       },
+{
+                       text:"Star.Wars:Episode.IX/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Star.Wars%3AEpisode.IX/"
+                       },
+{
+                       text:"Stuber/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Stuber/"
+                       },
+{
+                       text:"Terminator:Dark.Fate/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Terminator%3ADark.Fate/"
+                       },
+{
+                       text:"Uri.The.Surgical.Strike/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Uri.The.Surgical.Strike/"
+                       },
+{
+                       text:"Zombieland:Double.Tap/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/Zombieland%3ADouble.Tap/"
+                       },
+{
+                       text:"aladdin/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/aladdin/"
+                       },
+{
+                       text:"anna/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/anna/"
+                       },
+{
+                       text:"annabelle/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/annabelle/"
+                       },
+{
+                       text:"jumanji/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/jumanji/"
+                       },
+{
+                       text:"recep.ivedik/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/recep.ivedik/"
+                       },
+{
+                       text:"shaft/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/shaft/"
+                       },
+{
+                       text:"shazam/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2019/shazam/"
+                       },
+{
+                       text:"Angrezi.Medium/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Angrezi.Medium/"
+                       },
+{
+                       text:"Capone/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Capone/"
+                       },
+{
+                       text:"Coffee.&.Kareem/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Coffee.%26.Kareem/"
+                       },
+{
+                       text:"Da.5.Bloods/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Da.5.Bloods/"
+                       },
+{
+                       text:"Eurovision.Song.Contest.The.Story.of.Fire.Saga/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Eurovision.Song.Contest.The.Story.of.Fire.Saga/"
+                       },
+{
+                       text:"Extraction/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Extraction/"
+                       },
+{
+                       text:"Malang/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Malang/"
+                       },
+{
+                       text:"Spenser.Confidential/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Spenser.Confidential/"
+                       },
+{
+                       text:"The.King.of.Staten.Island/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/The.King.of.Staten.Island/"
+                       },
+{
+                       text:"The.Lovebirds/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/The.Lovebirds/"
+                       },
+{
+                       text:"Underwater/", 
+                      href:"https://dl3.3rver.org/cdn2/04/film/2020/Underwater/"
+                       },
+
+]
+ module.exports={data}

@@ -1,0 +1,351 @@
+const data=[
+{
+                       text:"Its.a.Wonderful.Life/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1946/Its.a.Wonderful.Life/"
+                       },
+{
+                       text:"The.Good.the.Bad.and.the.Ugly/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1966/The.Good.the.Bad.and.the.Ugly/"
+                       },
+{
+                       text:"The.Silence.of.the.Lambs/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1991/The.Silence.of.the.Lambs/"
+                       },
+{
+                       text:"Forrest.Gump/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1994/Forrest.Gump/"
+                       },
+{
+                       text:"Pulp.Fiction/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1994/Pulp.Fiction/"
+                       },
+{
+                       text:"The.Shawshank.Redemption/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1994/The.Shawshank.Redemption/"
+                       },
+{
+                       text:"The.Usual.Suspects/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1995/The.Usual.Suspects/"
+                       },
+{
+                       text:"Life.Is.Beautiful/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1997/Life.Is.Beautiful/"
+                       },
+{
+                       text:"Titanic/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1997/Titanic/"
+                       },
+{
+                       text:"Matrix/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/1999/Matrix/"
+                       },
+{
+                       text:"Gladiator/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2000/Gladiator/"
+                       },
+{
+                       text:"City.of.God/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2002/City.of.God/"
+                       },
+{
+                       text:"The.Matrix.Reloaded/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2003/The.Matrix.Reloaded/"
+                       },
+{
+                       text:"The.Matrix.Revolutions/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2003/The.Matrix.Revolutions/"
+                       },
+
+{
+                       text:"Johnny.English.2003.BluRay.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2003/Johnny.English.2003.BluRay.srt"
+                       },
+
+{
+                       text:"Troy/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2004/Troy/"
+                       },
+{
+                       text:"The.Dark.Knight/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2008/The.Dark.Knight/"
+                       },
+{
+                       text:"Iron.Man.2008.1080p.BluRay.AC3.x264-EbP.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2008/Iron.Man.2008.1080p.BluRay.AC3.x264-EbP.srt"
+                       },
+
+
+{
+                       text:"Inglourious.Basterds/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2009/Inglourious.Basterds/"
+                       },
+{
+                       text:"Inception/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2010/Inception/"
+                       },
+
+{
+                       text:"Iron.Man.2.2010.Bluray.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2010/Iron.Man.2.2010.Bluray.srt"
+                       },
+
+{
+                       text:"Grown.Ups.2/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2013/Grown.Ups.2/"
+                       },
+
+{
+                       text:"Iron.Man.3.2013.BluRay.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2013/Iron.Man.3.2013.BluRay.srt"
+                       },
+
+{
+                       text:"Interstellar/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2014/Interstellar/"
+                       },
+{
+                       text:"Lucy/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2014/Lucy/"
+                       },
+{
+                       text:"The.Maze.Runner/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2014/The.Maze.Runner/"
+                       },
+
+{
+                       text:"John.Wick.2014.RERIP.720p.BluRay.x264.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2014/John.Wick.2014.RERIP.720p.BluRay.x264.srt"
+                       },
+
+{
+                       text:"Maze.Runner.The.Scorch.Trials/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2015/Maze.Runner.The.Scorch.Trials/"
+                       },
+{
+                       text:"The.Brand.New.Testament/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2015/The.Brand.New.Testament/"
+                       },
+
+{
+                       text:"Mad.Max.Fury.Road.2015.BluRay.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2015/Mad.Max.Fury.Road.2015.BluRay.srt"
+                       },
+
+
+{
+                       text:"The.Hateful.Eight.2015.BluRay.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2015/The.Hateful.Eight.2015.BluRay.srt"
+                       },
+
+
+{
+                       text:"The.Invitation.2015.BluRay.srt", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2015/The.Invitation.2015.BluRay.srt"
+                       },
+
+{
+                       text:"13.Hours/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2016/13.Hours/"
+                       },
+{
+                       text:"Deadpool/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2016/Deadpool/"
+                       },
+
+
+
+{
+                       text:"Deadpool.2/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2018/Deadpool.2/"
+                       },
+{
+                       text:"Green.Book/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2018/Green.Book/"
+                       },
+{
+                       text:"Maze.Runner.The.Death.Cure/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2018/Maze.Runner.The.Death.Cure/"
+                       },
+{
+                       text:"The.Meg/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2018/The.Meg/"
+                       },
+{
+                       text:"Tully/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2018/Tully/"
+                       },
+{
+                       text:"Venom/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2018/Venom/"
+                       },
+{
+                       text:"1917/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/1917/"
+                       },
+{
+                       text:"Ad.Astra/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Ad.Astra/"
+                       },
+{
+                       text:"Alita.Battle.Angel/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Alita.Battle.Angel/"
+                       },
+{
+                       text:"Booksmart/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Booksmart/"
+                       },
+{
+                       text:"Captain.Marvel/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Captain.Marvel/"
+                       },
+{
+                       text:"Dark.Phoenix/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Dark.Phoenix/"
+                       },
+{
+                       text:"El.Camino.A.Breaking.Bad.Movie/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/El.Camino.A.Breaking.Bad.Movie/"
+                       },
+{
+                       text:"Fast.and.Furious.presents.Hobbs.and.Shaw/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Fast.and.Furious.presents.Hobbs.and.Shaw/"
+                       },
+{
+                       text:"Ford.v.Ferrari/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Ford.v.Ferrari/"
+                       },
+{
+                       text:"Gemini/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Gemini/"
+                       },
+{
+                       text:"Glass/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Glass/"
+                       },
+{
+                       text:"Godzilla.King.of.the.Monsters/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Godzilla.King.of.the.Monsters/"
+                       },
+{
+                       text:"Haunt/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Haunt/"
+                       },
+{
+                       text:"It/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/It/"
+                       },
+{
+                       text:"John.Wick.3/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/John.Wick.3/"
+                       },
+{
+                       text:"Joker/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Joker/"
+                       },
+{
+                       text:"Maleficent/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Maleficent/"
+                       },
+{
+                       text:"Marriage.Story/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Marriage.Story/"
+                       },
+{
+                       text:"Monos/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Monos/"
+                       },
+{
+                       text:"Once.Upon.a.Time.in.Hollywood/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Once.Upon.a.Time.in.Hollywood/"
+                       },
+{
+                       text:"Parasite/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Parasite/"
+                       },
+{
+                       text:"Pokemon.Detective.Pikachu/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Pokemon.Detective.Pikachu/"
+                       },
+{
+                       text:"The.Aeronauts/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/The.Aeronauts/"
+                       },
+{
+                       text:"The.Gentlemen/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/The.Gentlemen/"
+                       },
+{
+                       text:"The.Irishman/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/The.Irishman/"
+                       },
+{
+                       text:"The.Lighthouse/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/The.Lighthouse/"
+                       },
+{
+                       text:"The.Lion.King/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/The.Lion.King/"
+                       },
+{
+                       text:"The.Platform/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/The.Platform/"
+                       },
+{
+                       text:"Toy.Story.4/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Toy.Story.4/"
+                       },
+{
+                       text:"Triple.Frontier/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Triple.Frontier/"
+                       },
+{
+                       text:"Us/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2019/Us/"
+                       },
+{
+                       text:"Bad.Boys.For.Life/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Bad.Boys.For.Life/"
+                       },
+{
+                       text:"Birds.of.Prey/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Birds.of.Prey/"
+                       },
+{
+                       text:"Bloodshot/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Bloodshot/"
+                       },
+{
+                       text:"Brahms.The.Boy.II/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Brahms.The.Boy.II/"
+                       },
+{
+                       text:"Force.of.Nature/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Force.of.Nature/"
+                       },
+{
+                       text:"Looks.That.Kill/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Looks.That.Kill/"
+                       },
+{
+                       text:"Scoob/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Scoob/"
+                       },
+{
+                       text:"Sonic/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Sonic/"
+                       },
+{
+                       text:"Stealing.School/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/Stealing.School/"
+                       },
+{
+                       text:"The.Call.of.the.Wild/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/The.Call.of.the.Wild/"
+                       },
+{
+                       text:"The.Tent/", 
+                      href:"https://dl3.3rver.org/cdn2/05/film/2020/The.Tent/"
+                       },
+
+]
+ module.exports={data}
