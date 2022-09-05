@@ -18,15 +18,11 @@ var newData=[]
 const removeNonVideoLink= async ()=>{
     await data.map((o)=>{
         const href=o.href
-      
-       if(href.indexOf(".mkv")>=0 || href.indexOf(".mp4") >= 0 ){
-          //to remove trailer links
-           if(!(href.search("Trailer")>0)){
-            newData.push({text:o.text,href:o.href})
-           }
+       if(href.indexOf(".mkv")>=0 || href.indexOf(".mp4") >= 0){
+        newData.push({text:o.text,href:o.href})
        }else{
          if(mode=="test"){
-          console.log(href,"\n")
+         console.log(href,"\n")
          }
        }
     })
@@ -46,19 +42,38 @@ const generate=async ()=>{
   if(mode=="dev"){
    await writeStream.write("const data = [\n") 
   }
-  
+  let d=[]
  await data.map((o)=>{
-   const link=o.href
-   const type=searchReso(o.href)
-   const year=searchYear(o.href)
-    if(mode=="year"){
-     console.log(year)
+   let type;
+   let link;
+   if((o.text.search("320p") >0)){
+     type="p_320"
+      link=o.href
+   }else if((o.text.search("480p") > 0)) {
+          type="p_480"
+      link=o.href
+   }else if((o.text.search("720p") >0)){
+          type="p_720"
+      link=o.href
+   }else if((o.text.search("1080p") >0)){
+          type="p_1080"
+      link=o.href
+   }else{
+         type="p_480"
+      link=o.href
    }
+   if(mode=="year"){
+     console.log(searchYear(o.href))
+   }
+  const year=searchYear(o.href)
   let r=o.text
-  .replace("/","")
   .replaceAll("."," ")
-  .replaceAll("-"," ")
-  if(mode=="dev"){
+.replaceAll(year,"-")
+.split("-")[0]
+.replaceAll(">","")
+.trim()
+
+if(mode=="dev"){
   writeStream.write(`{
     name:"${r}",
     year:${year},
@@ -69,7 +84,7 @@ const generate=async ()=>{
     ]
   },\n`)
 }
-  if(mode=="filter"){
+ if(mode=="filter"){
    console.log(r)
  }
 
@@ -82,23 +97,16 @@ const generate=async ()=>{
 }
 
 const searchYear= (str)=>{
-   return str.split("/")[6]
+const arr= str.split(".")
+ const p=arr[arr.length - 4]
+
+ if(p=="380p" || p=="480p" || p=="720p" || p=="1080p"){
+   const a=arr[arr.length - 5]
+   return isNaN(a) ? "0000" : a
+ }
+ 
+ return isNaN(p) ? "0000" : p
+  
 }
 
-const searchReso=(str)=>{
-  if((str.search("320p") >0)){
-     return "p_320"
-   }
-   if((str.search("480p") > 0)) {
-         return "p_480"
-   }
-   if((str.search("720p") >0)){
-         return "p_720"
-   }
-   if((str.search("1080p") >0)){
-        return "p_1080"
-   }
-   
-       return "p_480"
-}
 removeNonVideoLink()

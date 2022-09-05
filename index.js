@@ -13,8 +13,8 @@ try {
   skipped=[]
 }
 
-const limit =data.length
-page=(page - 1)*limit
+const limit =1000
+page=((page - 1)*limit)+161
 console.log("data left : ",data.length - page)
 
 data=data.slice(page,page+limit)
