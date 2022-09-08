@@ -10,11 +10,17 @@
   <button onclick="run()">runnn</button>
   <script>
     const run=async()=>{
+      try{
       console.log("loading...");
-      const res=await fetch("https://sflix.pro/series/the-boys-lx4rz/1-1");
-      // const b=await res.text()
+     /* const res =await fetch('https://sflix.pro/search?' + new URLSearchParams({
+        keyword: 'avenger'
+       }))*/ // const b=await res.text()
+      const res=await fetch("https://seapi.link/?type=tmdb&id=361743")
       console.log("loaded");
       console.log(res);
+      }catch(e){
+        console.log(e)
+      }
     }
   </script>
 </body>
