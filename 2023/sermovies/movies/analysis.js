@@ -1,7 +1,22 @@
-const { data } = require("./data/extra");
-
-let newData = data.filter((obj) => obj.link.endsWith("/"));
-const m = newData[0].link.split("/");
-const name = m[6];
-const year = m[4];
-console.log(name);
+const { data } = require("./data/extra.js");
+const fs = require("fs");
+const destFile = "./data/extra_3.js";
+fs.writeFileSync(destFile, "const data = [\n");
+var i = 0;
+data.filter((obj) => {
+  if (!obj.href.endsWith("/")) {
+    i++;
+    console.log(i);
+    fs.appendFileSync(
+      destFile,
+      `{
+        id:${i},
+        movieId:${obj.movieId},
+        name:"${obj.name}",
+        year:${obj.year},
+        href:"${obj.href}"
+     },\n`
+    );
+  }
+});
+fs.appendFileSync(destFile, "]\n module.exports={data}");

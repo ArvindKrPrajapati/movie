@@ -2,8 +2,8 @@
 
 //const destFile="./data/years.js"
 //const destFile="./data/movie_name.js"
-const destFile = "./data/movie_link.js";
-const extraFile = "./data/extra.js";
+const destFile = "./data/copy/movie_link.js";
+const extraFile = "./data/copy/extra.js";
 import * as cheerio from "cheerio";
 import * as fs from "fs";
 //import {data} from "./data/years.js"
@@ -44,6 +44,7 @@ const extractLinks = async (obj) => {
             destFile,
             `{
                       id:${count},
+                      movieId:${obj.id},
                        name:"${obj.name}", 
                       year:${obj.year},
                       resolution:"${reso}",
@@ -54,7 +55,12 @@ const extractLinks = async (obj) => {
         } else {
           fs.appendFileSync(
             extraFile,
-            `{link:"${obj.href + $(element).attr("href")}"},\n`
+            `{
+              movieId:${obj.id},
+              name:"${obj.name}",
+              year:${obj.year},
+              href:"${obj.href + $(element).attr("href")}"
+            },\n`
           );
         }
       }
