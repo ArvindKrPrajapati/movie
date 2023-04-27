@@ -10,12 +10,23 @@
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
   </head>
   <body>
-    <video
-      src="http://hd4.dlmania.com/Hollywood/Mafia%20Mamma%20-%20SCam/Mafia%20Mamma%20-%20SCam%20HD%20(HDMp4Mania).mp4"
-      id="player"
-      controls
-      data-plyr-config='{ "title": "Example Title" }'
-    ></video>
+    <video id="player" controls data-plyr-config='{ "title": "Example Title" }'>
+      <source
+        src="http://hd4.dlmania.com/Hollywood/Mafia%20Mamma%20-%20SCam/Mafia%20Mamma%20-%20SCam%20HD%20(HDMp4Mania).mp4"
+        type="video/mp4"
+        size="720"
+      />
+      <source
+        src="http://hd4.dlmania.com/Hollywood/Mafia%20Mamma%20-%20SCam/Mafia%20Mamma%20-%20SCam%20HD%20(HDMp4Mania).mp4"
+        type="video/mp4"
+        size="480"
+      />
+      <source
+        src="http://hd4.dlmania.com/Hollywood/Mafia%20Mamma%20-%20SCam/Mafia%20Mamma%20-%20SCam%20HD%20(HDMp4Mania).mp4"
+        type="video/mp4"
+        size="360"
+      />
+    </video>
   </body>
   <script>
     const player = new Plyr("#player");
