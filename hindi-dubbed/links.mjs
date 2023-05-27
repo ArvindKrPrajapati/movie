@@ -35,7 +35,7 @@ const extractLinks = async (url, text) => {
         // Collect the "href" and "title" of each link and add them to an array
          
          //check amount of links in each folder
-        const links = [];
+         links = [];
          linkObjects.each((index, element) => {
                 if(index!=0){
                   totalLinkFound++;

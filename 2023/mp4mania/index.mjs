@@ -1,3 +1,44 @@
+import {
+    getCheerio,
+    extractInfo
+} from "./common.mjs"
+
+var data=[]
+const getMovies = async(id)=> {
+    console.log("counter : ",id)
+    const url = "https://hdmp4mania2.com/showmovie.php?id="+id
+    const $ = await getCheerio(url)
+    const skip = [0,
+        4,
+        5]
+    const info = extractInfo($, "description", skip, ":", 3, "http:")
+    if (info["Title"]) {
+        const cat = info["Category"].replaceAll(" ", "%20")
+        const name = info["Title"].replaceAll(" ", "%20")
+        info["id"] = id
+        if (Number(info["Total_Part(s)"]) > 1) {
+            const encoded_url_one = "http://hd1.dlmania.com/"+cat+"/"+name+"/"+name+"%20HD%201.mp4"
+            const encoded_url_two = "http://hd1.dlmania.com/"+cat+"/"+name+"/"+name+"%20HD%202.mp4"
+            info["url_one"] = encoded_url_one
+            info["url_two"] = encoded_url_two
+        } else {
+            const encoded_url = "http://hd1.dlmania.com/"+cat+"/"+name+"/"+name+"%20HD%20(HDMp4Mania).mp4"
+            info["url_one"] = encoded_url
+        }
+        data.push(info)
+    }else{
+    console.log("movie not found")
+    return
+    }
+}
+getCheerio("https://www.filmywap.com/download/14351/server_4")
+.then((data)=>{
+    console.log(data)
+})
+.catch(e=>{
+    console.log(e)
+})
+/*
 import * as cheerio from "cheerio";
 import * as fs from "fs";
 const got = (...args) => import("got").then(({ default: got }) => got(...args));
@@ -54,3 +95,4 @@ const writeInFile = async () => {
 };
 
 writeInFile();
+*/

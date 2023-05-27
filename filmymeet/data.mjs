@@ -8,7 +8,7 @@
 import * as cheerio from 'cheerio';
 const got = (...args) => import('got').then(({ default: got }) => got(...args));
 import fs from 'fs'
-const destFile="./data.js"
+const destFile="./datanew.js"
 
 const extractLinks =async ()=>{
   try {
