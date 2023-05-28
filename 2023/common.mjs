@@ -69,3 +69,42 @@ export const exportAsCsv = (data,file) => {
         })
         return obj
     }
+    
+    
+export function extractSermoviesLink($, skip_array = [], url = "") {
+  const data = [];
+
+  const rows = $("tr");
+  rows.each((i, row) => {
+    if (skip_array.includes(i)) {
+      return;
+    }
+
+    const td_elements = $(row).find("td");
+
+    const row_data = {};
+    td_elements.each((index, td) => {
+      const class_name = $(td).attr("class");
+const text = $(td).text().trim();
+      if (class_name) {
+        row_data[class_name] = text;
+      } else {
+        row_data["value"] = text;
+      }
+
+        const a_tag = $(td).find("a");
+        if (a_tag.length > 0) {
+          const href = $(a_tag).attr("href");
+          if (href) {
+            const text = $(a_tag).text().trim();
+            row_data["text"] = text;
+            row_data["link"] = url + href;
+          }
+        }
+    
+    });
+
+    data.push(row_data);
+  });
+  return data;
+}

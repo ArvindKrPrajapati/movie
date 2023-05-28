@@ -59,7 +59,7 @@ const nextPageLink=async (data,url_addon,className,skip=[])=>{
    console.log("\n ********* extracing movie links ********")
     const movie_links=await nextPageLink(details_page_links,"","mast",[0,1])
     const fml=format(movie_links,"2023","India","hindi")
-    exportAsCsv(fml,"mp4moviez.bollywood.json")
+    exportAsCsv(fml,"mp4moviez.bollywood.test.json")
    
   } catch (e) {
     console.log("error :",e)
